@@ -1,6 +1,6 @@
 # Slush video feed
 
-A mobile-first Slush-inspired app based on the four reference images in the project root. The focused implementation contains Home and Feed views.
+A mobile-first Slush-inspired app based on the four reference images in the project root. Home and Feed are implemented. The six-item bottom bar retains the reference app's Home, Program, My Agenda, Meetings, and Map tabs, with Feed added last. The four unimplemented tabs are labeled as coming soon.
 
 ## Run locally
 
