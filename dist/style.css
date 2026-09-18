@@ -42,13 +42,15 @@
 .pitch-actions .action-circle svg{height:30px;width:30px;stroke-width:1.9;filter:drop-shadow(0 2px 2px #0005)}
 .pitch-actions .message-action{color:white}
 .pitch-actions .message-action .action-circle{background:none;border:0;color:var(--green);box-shadow:none}
-.pitch-actions .message-action svg{fill:var(--green);stroke:#20351d;stroke-width:1.5}
+.message-dots{fill:currentColor;stroke:none}
+.pitch-actions .message-action .action-circle{height:40px}
+.pitch-actions .message-action svg{width:35px;height:35px;fill:none;stroke:none;filter:drop-shadow(0 2px 4px #0005)}
+.pitch-actions .message-bubble{fill:var(--green)}
+.pitch-actions .message-dots{fill:#183010}
+.pitch-actions .message-action:hover .message-bubble{fill:#b1ff9e}
 .pitch-actions [data-action="save"] svg{fill:white;stroke:white;stroke-width:1.2;width:27px;height:29px}
 .pitch-actions .is-active{color:var(--green)}
 .pitch-actions .is-active svg{fill:var(--green);stroke:var(--green)}
-.pitch-actions .profile-action{position:relative;margin-bottom:7px;min-height:54px;justify-content:flex-start}
-.profile-action .startup-logo{width:47px;height:47px;border:2px solid white;border-radius:50%;font-size:26px;text-shadow:none;box-shadow:0 2px 9px #0004}
-.profile-plus{position:absolute;bottom:0;left:50%;transform:translateX(-50%);display:grid;place-items:center;height:19px;width:19px;border-radius:50%;background:var(--green);color:#153511;font:500 19px/1 Arial,sans-serif;text-shadow:none}
 .pitch-playback{left:12px;right:18px;bottom:7px;gap:0}
 .pitch-playback button{width:34px;height:36px;min-height:36px}
 .pitch-playback svg{width:16px;height:16px}
