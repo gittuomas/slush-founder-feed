@@ -32,3 +32,7 @@ Signal Studio leads with the clip selected by the user. The other clips show an 
 - Loop: https://mixkit.co/free-stock-video/portrait-of-an-influencer-talking-to-the-camera-42323/
 
 For real founder recordings, use portrait 9:16 MP4s with clear speech, the speaker's face in the upper half, and room in the lower third for startup information. Replace the `video` and `poster` fields in `startups`, set `hasAudio: true`, and replace the corresponding local media files; the player needs no other integration. Fonts use Google Fonts with system fallbacks.
+
+## Device preview
+
+The default entry point (`dist/index.html`) presents the app inside a responsive iPhone-style frame. All device styling and sizing live in `device-preview.css` and `device-preview.js`. The real application entry point is `dist/app.html`; it has no dependency on the device wrapper and can be opened directly via the preview's **Open app** link. The iframe keeps app navigation, viewport sizing, and dialogs inside the device screen. Pitch share links open the default preview at the selected startup.
