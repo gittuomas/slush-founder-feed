@@ -25,7 +25,7 @@ The startup profiles are fictional concepts. The sample footage does not depict 
 
 ## Clip selection
 
-Signal Studio leads with the clip selected by the user. The other clips show an informal recording setup and a camera-facing speaker in portrait framing, replacing generic office footage. Several moments from each candidate were reviewed to avoid distracting cameras obscuring the speaker. All three are silent visual placeholders; the sound control explicitly indicates this. They are local MP4s under the Mixkit Free License:
+The feed opens with Relay, followed by the user-selected Signal Studio clip, then Loop. The other clips show an informal recording setup and a camera-facing speaker in portrait framing, replacing generic office footage. Several moments from each candidate were reviewed to avoid distracting cameras obscuring the speaker. All three are silent visual placeholders; the sound control explicitly indicates this. They are local MP4s under the Mixkit Free License:
 
 - Signal Studio: https://mixkit.co/free-stock-video/vlogger-recording-in-sign-language-4550/
 - Relay: https://mixkit.co/free-stock-video/youtuber-recording-himself-41289/
