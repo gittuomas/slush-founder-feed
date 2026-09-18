@@ -1,8 +1,0 @@
-{
-  "name": "slush-video-export",
-  "private": true,
-  "version": "1.0.0",
-  "description": "Vector UI layers for the Slush looping presentation video",
-  "scripts": { "overlays": "node vector-ui.cjs" },
-  "dependencies": { "sharp": "0.35.4" }
-}

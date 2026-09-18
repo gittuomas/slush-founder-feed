@@ -36,7 +36,3 @@ For real founder recordings, use portrait 9:16 MP4s with clear speech, the speak
 ## Device preview
 
 The default entry point (`dist/index.html`) presents the app inside a responsive iPhone-style frame. All device styling and sizing live in `device-preview.css` and `device-preview.js`. The real application entry point is `dist/app.html`; it has no dependency on the device wrapper and can be opened directly via the preview's **Open app** link. The iframe keeps app navigation, viewport sizing, and dialogs inside the device screen. Pitch share links open the default preview at the selected startup.
-
-## Presentation video
-
-The sharp, looping iPhone video can be reproduced with the portable scripts in [tools/video](tools/video/README.md). Install the listed dependencies, then run `python tools/video/render.py` to create the 1876 × 3840, 60 fps MP4. Use `--preview` for a quick check. All generated outputs are ignored by Git.
